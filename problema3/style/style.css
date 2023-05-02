@@ -1,8 +1,10 @@
 body {
-    background-color:gray;
-    padding: 10%;
+    background-color:azure;
+    padding: 2%;
 }
-
+p{
+    background-color: rgba(187, 231, 220, 0.753);
+}
 .obtener {
     cursor: pointer;
     height: 25px;
@@ -14,7 +16,7 @@ body {
 .limpiar {
     cursor: pointer;
     height: 25px;
-    background-color: cadetblue;
+    background-color:cornsilk;
     border: none;
     border-radius: 12px;
 }

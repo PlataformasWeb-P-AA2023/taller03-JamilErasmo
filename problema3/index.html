@@ -3,22 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
     <title>Practica03</title>
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   </head>
   <body>
-      <h2>Busqueda</h2>
-      <button class="limpiar" type="submit" id="limpiar">Limpiar Datos</button>
-      <p id="mensaje" style="  background-color: rgb(223, 217, 192); ">
-      </p>
-      <button type="submit " class="obtener" id="obtener">Obtener Datos</button>
-  </body>
+    <h2>Busqueda</h2>
+    <button class="limpiar" type="submit" id="limpiar">Limpiar Datos</button>
+    <p id="mensaje">
+    </p>
+    <button type="submit " class="obtener" id="obtener">Obtener Datos</button>
+</body>
 
   <script>
     $(document).ready(function() {
       var url = "https://pkgstore.datahub.io/core/country-codes/country-codes_json/data/616b1fb83cbfd4eb6d9e7d52924bb00a/country-codes_json.json";
-      $( "button" ).click(function() {
+      $( "#obtener" ).click(function() {
             $.ajax({
               dataType: 'json',
               url: url

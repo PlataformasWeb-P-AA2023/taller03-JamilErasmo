@@ -1,19 +1,12 @@
-body {
-    background:aliceblue;
-    padding: 15px;
-}
-th,
-td {
-    padding: 15px;
-    border-bottom: 1px solid black;
-    cursor: pointer;
-}
-tr:hover {
-    background-color:burlywood;
+label {
+    display: block;
+    margin-bottom: 20px;
+  }
 
+  .body{
+    display: flex;
 }
-.mensaje {   
-    text-align: center;
-    font-size: x-large;
-    font-weight: bold;
+
+.mensaje{
+    margin-left: 20px;
 }
